@@ -2,49 +2,36 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Smartphone, Star } from "lucide-react";
+import { Github, Smartphone, Star } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "FoodieHub",
-      description: "A comprehensive food delivery app with real-time tracking, AI-powered recommendations, and seamless payment integration. Built for both iOS and Android with React Native.",
+      title: "Socialseed",
+      description: "A Dynamic Social Media for modern users with AI powered captioning, image compressions, MFA authentication",
       image: "/placeholder.svg",
-      technologies: ["React Native", "Firebase", "Stripe API", "Google Maps"],
+      technologies: ["Flutter", "Firebase", "REST", "Gemini API"],
       featured: true,
-      metrics: ["2M+ Downloads", "4.8★ Rating", "150+ Cities"],
-      demoUrl: "#",
-      githubUrl: "#"
+      metrics: ["AI Powered", "MFA Auth", "Image Compression"],
+      githubUrl: "https://github.com/Kuntal-Gain/Socialseed"
     },
     {
-      title: "MindfulSpace",
-      description: "A meditation and wellness app featuring guided sessions, progress tracking, and community features. Designed with a focus on mental health and user engagement.",
+      title: "SmartJournal",
+      description: "An AI based Journal System for modern users with exceptional UX, AI memory stored to a vector DB can remember any previous occurrences.",
       image: "/placeholder.svg",
-      technologies: ["Flutter", "Dart", "Supabase", "Stripe"],
+      technologies: ["Flutter", "Pinecone Vector DB", "Gemini Embedding"],
       featured: true,
-      metrics: ["500K+ Users", "4.9★ Rating", "Premium Features"],
-      demoUrl: "#",
-      githubUrl: "#"
+      metrics: ["AI Memory", "Vector DB", "Smart Recall"],
+      githubUrl: "https://github.com/Kuntal-Gain/SmartJournal"
     },
     {
-      title: "CryptoTracker Pro",
-      description: "Advanced cryptocurrency portfolio management app with real-time market data, price alerts, and comprehensive analytics dashboard.",
+      title: "flutter_datetime_format",
+      description: "A Flutter Plugin for developing date time providers for developers with less code",
       image: "/placeholder.svg",
-      technologies: ["Swift", "iOS", "Core Data", "REST APIs"],
+      technologies: ["Flutter", "Dart"],
       featured: false,
-      metrics: ["1M+ Downloads", "4.7★ Rating", "Real-time Data"],
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "FitnessCoach AI",
-      description: "Personalized fitness app with AI-powered workout recommendations, progress tracking, and social features for motivation and accountability.",
-      image: "/placeholder.svg",
-      technologies: ["Kotlin", "Android", "TensorFlow", "Firebase"],
-      featured: false,
-      metrics: ["750K+ Users", "4.6★ Rating", "AI Powered"],
-      demoUrl: "#",
-      githubUrl: "#"
+      metrics: ["Flutter Plugin", "Developer Tool", "Easy Integration"],
+      githubUrl: "https://github.com/Kuntal-Gain/flutter_datetime_format"
     }
   ];
 
@@ -56,7 +43,7 @@ export const Projects = () => {
             Featured <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A showcase of mobile applications that have made an impact in the market
+            A showcase of mobile applications and tools that demonstrate modern development practices
           </p>
         </div>
         
@@ -98,13 +85,16 @@ export const Projects = () => {
                   </div>
                   
                   <div className="flex gap-3">
-                    <Button size="sm" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
-                      <ExternalLink size={16} className="mr-2" />
-                      Live Demo
-                    </Button>
-                    <Button size="sm" variant="outline" className="border-gray-600 text-gray-300 hover:bg-gray-800">
-                      <Github size={16} className="mr-2" />
-                      Source Code
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="border-gray-600 text-gray-300 hover:bg-gray-800"
+                      asChild
+                    >
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github size={16} className="mr-2" />
+                        Source Code
+                      </a>
                     </Button>
                   </div>
                 </div>

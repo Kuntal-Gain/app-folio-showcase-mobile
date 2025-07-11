@@ -1,39 +1,34 @@
 
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Smartphone, Code, Palette, Database, Cloud, Settings } from "lucide-react";
+import { Smartphone, Code, Palette, Database, Settings } from "lucide-react";
 
 export const Skills = () => {
   const skillCategories = [
     {
       icon: <Smartphone className="w-8 h-8 text-purple-400" />,
       title: "Mobile Frameworks",
-      skills: ["React Native", "Flutter", "Expo", "Ionic", "Xamarin"]
+      skills: ["Flutter", "React Native", "Expo"]
     },
     {
       icon: <Code className="w-8 h-8 text-blue-400" />,
       title: "Native Development",
-      skills: ["Swift (iOS)", "Kotlin", "Java", "Objective-C", "Android SDK"]
+      skills: ["Android SDK", "Java", "Kotlin"]
     },
     {
       icon: <Palette className="w-8 h-8 text-pink-400" />,
-      title: "UI/UX Design",
-      skills: ["Figma", "Sketch", "Adobe XD", "Material Design", "Human Interface Guidelines"]
+      title: "UI/UX",
+      skills: ["Figma", "Dribbble", "Behance"]
     },
     {
       icon: <Database className="w-8 h-8 text-green-400" />,
       title: "Backend & APIs",
-      skills: ["Firebase", "Supabase", "REST APIs", "GraphQL", "Node.js"]
-    },
-    {
-      icon: <Cloud className="w-8 h-8 text-yellow-400" />,
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Google Cloud", "App Store Connect", "Play Console", "CI/CD"]
+      skills: ["Firebase", "Appwrite", "Supabase", "REST"]
     },
     {
       icon: <Settings className="w-8 h-8 text-indigo-400" />,
-      title: "Tools & Testing",
-      skills: ["Git", "Jest", "Detox", "Flipper", "Android Studio", "Xcode"]
+      title: "Tools",
+      skills: ["Git", "Android Studio", "VS Code"]
     }
   ];
 

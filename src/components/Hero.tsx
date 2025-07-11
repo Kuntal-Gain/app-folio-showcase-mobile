@@ -29,7 +29,7 @@ export const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-              Alex Chen
+              Kuntal Gain
             </span>
           </h1>
           
@@ -38,7 +38,7 @@ export const Hero = () => {
           </h2>
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting innovative mobile experiences with React Native, Flutter, and native iOS/Android development. 
+            Crafting innovative mobile experiences with Flutter, React Native, and Android development. 
             Passionate about creating apps that users love and businesses need.
           </p>
           
@@ -67,7 +67,7 @@ export const Hero = () => {
             <a href="https://linkedin.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:alex@example.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
+            <a href="mailto:kuntal@example.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
               <Mail size={24} />
             </a>
           </div>

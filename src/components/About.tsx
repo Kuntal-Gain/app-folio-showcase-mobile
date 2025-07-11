@@ -6,18 +6,18 @@ export const About = () => {
   const highlights = [
     {
       icon: <Code2 className="w-8 h-8 text-purple-400" />,
-      title: "5+ Years Experience",
+      title: "6 Months Experience",
       description: "Building mobile apps with modern frameworks and native technologies"
     },
     {
       icon: <Rocket className="w-8 h-8 text-blue-400" />,
-      title: "50+ Apps Launched",
-      description: "Successfully deployed apps with millions of downloads across platforms"
+      title: "5 Apps Developed",
+      description: "Successfully deployed apps with great user experiences across platforms"
     },
     {
       icon: <Users className="w-8 h-8 text-green-400" />,
       title: "Cross-Platform Expert",
-      description: "Specialized in React Native, Flutter, iOS Swift, and Android Kotlin"
+      description: "Specialized in Flutter, React Native, and Android development"
     },
     {
       icon: <Palette className="w-8 h-8 text-pink-400" />,
@@ -57,7 +57,7 @@ export const About = () => {
               intuitive design, and deep understanding of user needs. Every line of code I write and 
               every pixel I place is crafted with the user's journey in mind."
             </p>
-            <p className="text-purple-400 font-semibold mt-4">- Alex Chen</p>
+            <p className="text-purple-400 font-semibold mt-4">- Kuntal Gain</p>
           </Card>
         </div>
       </div>

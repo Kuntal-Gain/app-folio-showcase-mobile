@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Send, Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -36,19 +36,13 @@ export const Contact = () => {
     {
       icon: <Mail className="w-6 h-6 text-purple-400" />,
       label: "Email",
-      value: "alex.chen@example.com",
-      href: "mailto:alex.chen@example.com"
-    },
-    {
-      icon: <Phone className="w-6 h-6 text-blue-400" />,
-      label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "work.kuntalgain@gmail.com",
+      href: "mailto:work.kuntalgain@gmail.com"
     },
     {
       icon: <MapPin className="w-6 h-6 text-green-400" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Kolkata, West Bengal, India",
       href: "#"
     }
   ];
@@ -57,20 +51,14 @@ export const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Kuntal-Gain/",
       color: "hover:text-gray-300"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/kuntal-gain/",
       color: "hover:text-blue-400"
-    },
-    {
-      icon: <Twitter className="w-5 h-5" />,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-sky-400"
     }
   ];
 
@@ -188,6 +176,8 @@ export const Contact = () => {
                   <a
                     key={index}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`p-3 bg-white/10 rounded-lg text-gray-400 transition-colors hover-scale ${social.color}`}
                     aria-label={social.label}
                   >
@@ -205,9 +195,12 @@ export const Contact = () => {
               <Button 
                 size="lg"
                 className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white"
+                asChild
               >
-                <Mail size={16} className="mr-2" />
-                Hire Me
+                <a href="mailto:work.kuntalgain@gmail.com">
+                  <Mail size={16} className="mr-2" />
+                  Hire Me
+                </a>
               </Button>
             </Card>
           </div>

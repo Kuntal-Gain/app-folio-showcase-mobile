@@ -6,49 +6,34 @@ import { Building, Calendar, MapPin } from "lucide-react";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Senior Mobile Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "Flutter Developer Intern",
+      company: "Betechnos Private Limited",
+      location: "Remote, Pune",
+      period: "2024 - 2025",
       type: "Full-time",
-      description: "Lead mobile development team building enterprise-grade applications. Architected and developed 5 major mobile apps using React Native and Flutter, serving over 3 million users worldwide.",
+      description: "Developed a cab booking application for the parent company, focusing on mobile app development and team collaboration.",
       achievements: [
-        "Increased app performance by 40% through optimization",
-        "Led team of 6 developers across multiple projects",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Mentored junior developers and established coding standards"
+        "Contributed to a Company Product 'Cabbmate' a mobile application for cab sharing in urban areas",
+        "Led a team of Flutter Developers",
+        "Developed scalable mobile solutions for urban transportation",
+        "Implemented modern Flutter development practices"
       ],
-      technologies: ["React Native", "Flutter", "AWS", "GraphQL"]
+      technologies: ["Flutter", "Dart", "Firebase", "Mobile Development"]
     },
     {
-      title: "Mobile App Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
-      period: "2020 - 2022",
-      type: "Full-time",
-      description: "Developed and maintained consumer-facing mobile applications from concept to App Store. Collaborated with design and product teams to create intuitive user experiences.",
+      title: "Android Developer",
+      company: "Teachnook EdTech Private Limited",
+      location: "Remote, Pune",
+      period: "2024 - 2025",
+      type: "Virtual Internship",
+      description: "Went through a mentor-led learning opportunity focused on Android development with industry experts.",
       achievements: [
-        "Built 3 apps from scratch with 1M+ combined downloads",
-        "Achieved 4.8+ star rating across all published apps",
-        "Reduced app crash rate by 85% through robust testing",
-        "Integrated multiple third-party APIs and payment systems"
+        "Learned Android Development by Industry-led Mentors",
+        "Built & Contributed to multiple projects",
+        "Gained hands-on experience with modern Android development practices",
+        "Collaborated with mentors and peers in a virtual learning environment"
       ],
-      technologies: ["Swift", "Kotlin", "Firebase", "REST APIs"]
-    },
-    {
-      title: "Junior iOS Developer",
-      company: "Digital Agency Pro",
-      location: "Remote",
-      period: "2019 - 2020",
-      type: "Contract",
-      description: "Focused on iOS development for various client projects. Gained expertise in native iOS development and app store optimization strategies.",
-      achievements: [
-        "Developed 10+ client iOS applications",
-        "Improved app store rankings through ASO techniques",
-        "Collaborated with international teams across time zones",
-        "Maintained 99% client satisfaction rate"
-      ],
-      technologies: ["Swift", "Objective-C", "Core Data", "UIKit"]
+      technologies: ["Android SDK", "Java", "Kotlin", "Mobile Development"]
     }
   ];
 

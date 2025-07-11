@@ -61,13 +61,13 @@ export const Hero = () => {
           </div>
           
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
+            <a href="https://github.com/Kuntal-Gain/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
+            <a href="https://linkedin.com/in/kuntal-gain/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:kuntal@example.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
+            <a href="mailto:work.kuntalgain@gmail.com" className="text-gray-400 hover:text-purple-400 transition-colors hover-scale">
               <Mail size={24} />
             </a>
           </div>
